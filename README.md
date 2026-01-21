@@ -1,4 +1,6 @@
 # UniEMO
+![model](model_architecture.png "Model Architecture")
+
 
 Unified dialog emotion recognition (ERC) model. It jointly models utterance semantics, contextual dynamics, and VAD/ΔVAD (valence–arousal–dominance and their changes) with optional contrastive losses.
 
