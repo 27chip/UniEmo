@@ -1,0 +1,157 @@
+Namespace(acc_steps='1', adam_epsilon=1e-08, batch_size=1, class_weight='none', context_encoder_layer=6, contrastive='supcon', dataset='iemocap', describe='train.py', epochs=30, grad_acc=False, lr=1e-05, lr_decay_param=0.5, lr_decay_type='none', mode='1', model='bert', mu=0, multitask='subtask01', no_lstm=False, save_model=True, seed=777, weight_decay=0.0001)
+saved model number is: 1768809623
+Epoch 0
+train_loss 1.7846 train_acc 23.99 train_fscore 22.19
+valid_loss 1.3821 valid_acc 50.0 valid_fscore 45.32
+test__loss 1.3821 test__acc 50.0 test__fscore 45.32
+time 35.65
+Epoch 1
+train_loss 1.3686 train_acc 43.4 train_fscore 42.41
+valid_loss 1.1129 valid_acc 57.58 valid_fscore 54.12
+test__loss 1.1129 test__acc 57.58 test__fscore 54.12
+time 35.57
+Epoch 2
+train_loss 1.1436 train_acc 53.45 train_fscore 52.37
+valid_loss 1.2015 valid_acc 54.44 valid_fscore 52.02
+test__loss 1.2015 test__acc 54.44 test__fscore 52.02
+time 35.44
+Epoch 3
+train_loss 1.0637 train_acc 55.06 train_fscore 53.9
+valid_loss 1.0648 valid_acc 58.26 valid_fscore 55.58
+test__loss 1.0648 test__acc 58.26 test__fscore 55.58
+time 35.55
+Epoch 4
+train_loss 0.9735 train_acc 60.61 train_fscore 60.17
+valid_loss 1.0387 valid_acc 59.86 valid_fscore 57.08
+test__loss 1.0387 test__acc 59.86 test__fscore 57.08
+time 35.72
+Epoch 5
+train_loss 0.9562 train_acc 60.01 train_fscore 59.41
+valid_loss 1.1159 valid_acc 56.29 valid_fscore 55.45
+test__loss 1.1159 test__acc 56.29 test__fscore 55.45
+time 35.87
+Epoch 6
+train_loss 0.9501 train_acc 60.55 train_fscore 60.24
+valid_loss 0.9413 valid_acc 63.01 valid_fscore 62.41
+test__loss 0.9413 test__acc 63.01 test__fscore 62.41
+time 35.75
+Epoch 7
+train_loss 0.837 train_acc 66.66 train_fscore 66.43
+valid_loss 0.9503 valid_acc 62.52 valid_fscore 62.53
+test__loss 0.9503 test__acc 62.52 test__fscore 62.53
+time 35.72
+Epoch 8
+train_loss 0.7949 train_acc 67.17 train_fscore 67.03
+valid_loss 0.9332 valid_acc 64.49 valid_fscore 63.67
+test__loss 0.9332 test__acc 64.49 test__fscore 63.67
+time 35.89
+Epoch 9
+train_loss 0.7855 train_acc 68.46 train_fscore 68.42
+valid_loss 0.9773 valid_acc 61.59 valid_fscore 60.09
+test__loss 0.9773 test__acc 61.59 test__fscore 60.09
+time 35.6
+Epoch 10
+train_loss 0.7145 train_acc 71.68 train_fscore 71.54
+valid_loss 0.9486 valid_acc 63.56 valid_fscore 63.55
+test__loss 0.9486 test__acc 63.56 test__fscore 63.55
+time 36.05
+Epoch 11
+train_loss 0.7111 train_acc 71.5 train_fscore 71.42
+valid_loss 0.9621 valid_acc 64.49 valid_fscore 63.27
+test__loss 0.9621 test__acc 64.49 test__fscore 63.27
+time 35.72
+Epoch 12
+train_loss 0.6493 train_acc 73.71 train_fscore 73.57
+valid_loss 0.9365 valid_acc 66.28 valid_fscore 65.96
+test__loss 0.9365 test__acc 66.28 test__fscore 65.96
+time 35.95
+Epoch 13
+train_loss 0.6186 train_acc 75.9 train_fscore 75.78
+valid_loss 1.0513 valid_acc 63.26 valid_fscore 63.57
+test__loss 1.0513 test__acc 63.26 test__fscore 63.57
+time 35.8
+Epoch 14
+train_loss 0.6068 train_acc 76.5 train_fscore 76.48
+valid_loss 0.9386 valid_acc 68.37 valid_fscore 67.93
+test__loss 0.9386 test__acc 68.37 test__fscore 67.93
+time 35.77
+Epoch 15
+train_loss 0.556 train_acc 78.22 train_fscore 78.19
+valid_loss 0.9797 valid_acc 66.77 valid_fscore 66.37
+test__loss 0.9797 test__acc 66.77 test__fscore 66.37
+time 35.53
+Epoch 16
+train_loss 0.5144 train_acc 80.55 train_fscore 80.56
+valid_loss 1.0199 valid_acc 66.28 valid_fscore 66.32
+test__loss 1.0199 test__acc 66.28 test__fscore 66.32
+time 35.6
+Epoch 17
+train_loss 0.5004 train_acc 80.28 train_fscore 80.26
+valid_loss 1.0593 valid_acc 66.09 valid_fscore 66.32
+test__loss 1.0593 test__acc 66.09 test__fscore 66.32
+time 35.66
+Epoch 18
+train_loss 0.4729 train_acc 82.42 train_fscore 82.4
+valid_loss 1.0412 valid_acc 67.08 valid_fscore 67.07
+test__loss 1.0412 test__acc 67.08 test__fscore 67.07
+time 36.14
+Epoch 19
+train_loss 0.4173 train_acc 84.26 train_fscore 84.23
+valid_loss 1.1333 valid_acc 65.54 valid_fscore 65.73
+test__loss 1.1333 test__acc 65.54 test__fscore 65.73
+time 36.05
+Epoch 20
+train_loss 0.4134 train_acc 83.9 train_fscore 83.89
+valid_loss 1.1868 valid_acc 67.08 valid_fscore 66.86
+test__loss 1.1868 test__acc 67.08 test__fscore 66.86
+time 35.59
+Epoch 21
+train_loss 0.3608 train_acc 86.62 train_fscore 86.61
+valid_loss 1.1583 valid_acc 68.68 valid_fscore 68.42
+test__loss 1.1583 test__acc 68.68 test__fscore 68.42
+time 35.93
+Epoch 22
+train_loss 0.3929 train_acc 84.5 train_fscore 84.48
+valid_loss 1.1357 valid_acc 66.34 valid_fscore 66.4
+test__loss 1.1357 test__acc 66.34 test__fscore 66.4
+time 35.97
+Epoch 23
+train_loss 0.3622 train_acc 86.11 train_fscore 86.11
+valid_loss 1.1581 valid_acc 67.94 valid_fscore 68.21
+test__loss 1.1581 test__acc 67.94 test__fscore 68.21
+time 35.83
+Epoch 24
+train_loss 0.3004 train_acc 89.22 train_fscore 89.22
+valid_loss 1.2166 valid_acc 67.45 valid_fscore 67.41
+test__loss 1.2166 test__acc 67.45 test__fscore 67.41
+time 35.72
+Epoch 25
+train_loss 0.2795 train_acc 89.86 train_fscore 89.85
+valid_loss 1.2604 valid_acc 67.69 valid_fscore 67.4
+test__loss 1.2604 test__acc 67.69 test__fscore 67.4
+time 35.72
+Epoch 26
+train_loss 0.2729 train_acc 89.58 train_fscore 89.56
+valid_loss 1.3957 valid_acc 64.18 valid_fscore 64.49
+test__loss 1.3957 test__acc 64.18 test__fscore 64.49
+time 35.65
+Epoch 27
+train_loss 0.2305 train_acc 91.85 train_fscore 91.84
+valid_loss 1.3693 valid_acc 67.63 valid_fscore 67.77
+test__loss 1.3693 test__acc 67.63 test__fscore 67.77
+time 35.78
+Epoch 28
+train_loss 0.2241 train_acc 91.6 train_fscore 91.6
+valid_loss 1.4271 valid_acc 67.57 valid_fscore 67.48
+test__loss 1.4271 test__acc 67.57 test__fscore 67.48
+time 35.72
+Epoch 29
+train_loss 0.2094 train_acc 92.47 train_fscore 92.46
+valid_loss 1.4477 valid_acc 66.71 valid_fscore 66.86
+test__loss 1.4477 test__acc 66.71 test__fscore 66.86
+time 36.0
+Scores: Weighted
+F1@Best Valid Loss: [63.67]
+F1@Best Valid F1: [68.42]
+最低的loss at epoch:8
+最高的F1 at epoch: 21
